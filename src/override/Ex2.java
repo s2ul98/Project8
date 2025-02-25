@@ -6,6 +6,7 @@ public class Ex2 {
 		
 		// 형변환
 		 Customer vc = new VipCustomer("둘리");
+		 // 형변환된 변수는 부모가 물려준 속성과 메소드만 사용할 수 있다
 		 vc.calcPrice(10000);
 		 
 		 // 프로그램이 종작할때 (런타임시)
